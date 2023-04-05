@@ -1,9 +1,9 @@
 import sqlite3
 
-conec=sqlite3.connect('cerberus.db')
+conec=sqlite3.connect('D:/cerberus/hotelproyecto/franco/usuario/cerberustest.db')
 print(type(conec))
 curso=conec.cursor()
-consulta="SELECT nombre_usu , apellido_usu , tipo_usu FROM usuario INNER JOIN tipo_usuario WHERE id_tipo_usu = id_tipo  ;"
+consulta="SELECT nombre_usu , apellido_usu , tipo_usu FROM usuario INNER JOIN tipo_usuario WHERE id_tipo_usu = id_tipo;"
 curso.execute(consulta)
 test=curso.fetchall()
 for fila in test:                                            
