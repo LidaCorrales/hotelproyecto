@@ -12,4 +12,4 @@ def update(tabla,nombrecolum, nuevovalor,colum2,operador,dato):
     curso.close
     return n
 
-print(update('usuario','nombre_usu','pinocho','id_usuario_usu','=',14))
+"""print(update('usuario','nombre_usu','pinocho','id_usuario_usu','=',14))"""

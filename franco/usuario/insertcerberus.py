@@ -9,4 +9,4 @@ def insert(tabla, columna,dato):
     conec.commit()
     curso.close
     return n
-insert('usuario','nombre_usu','franco')
+"""insert('usuario','nombre_usu','franco')"""

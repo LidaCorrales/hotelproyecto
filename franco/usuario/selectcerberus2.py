@@ -11,4 +11,4 @@ def seleccion(tabla, campo, operador,dato):
         print(fila)                                                                                                                                                                             
         print('*'*50)  
 
-seleccion('usuario','id_usuario_usu','=','5')
+"""seleccion('usuario','id_usuario_usu','=','5')"""
