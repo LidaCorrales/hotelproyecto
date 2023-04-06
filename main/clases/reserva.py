@@ -1,13 +1,13 @@
 class Reserva:
-    def __init__(self,idreserva,documento,numpersonas,tipo_hab,fechaentrada,fechasalida):
-        self.__idreserva=idreserva
+    def __init__(self,can_hab,documento,numpersonas,tipo_hab,fechaentrada,fechasalida):
+        self.__can_hab=can_hab
         self.__documento=documento
         self.__numpersonas=numpersonas
         self.__tipo_hab=tipo_hab
         self.__fechaentrada=fechaentrada
         self.__fechasalida=fechasalida
-    def getIdreserva(self):
-        return self.__idreserva
+    def getCan_hab(self):
+        return self.__can_hab
     def getDocumento(self):
         return self.__documento
     def getNumpersona(self):
@@ -19,8 +19,8 @@ class Reserva:
     def getFechados(self):
         return self.__fechasalida
     
-    def setIdreserva(self,idreserva):
-        self.__idreserva=idreserva
+    def setCan_hab(self,can_hab):
+        self.__can_hab=can_hab
     def setDocumento(self,documento):
         self.__documento=documento
     def setNumpersonas(self,numpersonas):
