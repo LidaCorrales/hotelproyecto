@@ -1,21 +1,21 @@
 class Servicios:
-    def __init__(self,id_servicio,cantidad,id_tp_ser,id_factura):
-        self.__id_servicio = id_servicio
-        self.__cantidad = cantidad
+    def __init__(self,id_servicio_ser,can_ser,id_tp_ser,id_factura):
+        self.__id_servicio_ser = id_servicio_ser
+        self.__can_ser = can_ser
         self.__id_tp_ser = id_tp_ser
         self.__id_factura = id_factura
 
     def getIdservi(self):
-        return self.__id_servicio
+        return self.__id_servicio_ser
 
-    def setIdservi(self,id_servicio):
-        self.id_servicio = id_servicio
+    def setIdservi(self,id_servicio_ser):
+        self.__id_servicio_ser = id_servicio_ser
 
-    def getCantidad(self):
-        return self.__cantidad
+    def getcanser(self):
+        return self.__can_ser
 
-    def setCantidad(self,cantidad):
-        self.__cantidad = cantidad
+    def setcanser(self,can_ser):
+        self.__can_ser = can_ser
 
     def getIdtipo(self):
         return self.__id_tp_ser
@@ -28,6 +28,3 @@ class Servicios:
 
     def setIdfactura(self,id_factura):
         self.__id_factura = id_factura
-
-ob=Servicios("123","2","restaurante","233")
-print(ob.getIdservi)
