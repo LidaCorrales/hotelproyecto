@@ -1,7 +1,7 @@
 import sqlite3
 from funciones import *
 
-conn = sqlite3.connect('C:\\proyecto\\hotelproyecto\\carol\\cerberustest.db')
+conn = sqlite3.connect('C:\\hotel\\hotelproyecto\\carol\\cerberustest.db')
 
 while True:
     print("Seleccione una opción:")
