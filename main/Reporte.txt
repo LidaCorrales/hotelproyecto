@@ -1,0 +1,5 @@
+Cantidad de habitaciones de la reserva: 2
+Numero de personas en la reserva: 3
+Fecha de entrada registrada en la reserva: 2023-02-23
+Fecha de salida registrada en la reserva: 2023-20-28
+**************************************************

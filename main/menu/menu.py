@@ -1,7 +1,10 @@
-import CRUD.insertar as CI
-import CRUD.actualizar as CA
-import CRUD.leer as CL
-import CRUD.eliminar as CE
+from sys import path as ruta
+
+ruta.append("C:\\Corrales\\hotelproyecto\\main")
+import CRUD_reserva.insertar as CI
+import CRUD_reserva.actualizar as CA
+import CRUD_reserva.leer as CL
+import CRUD_reserva.eliminar as CE
 
 try:
     while True:

@@ -2,7 +2,7 @@ from sqlite3 import *
 from sys import path as ruta
 
 ruta.append("C:\\Corrales\\hotelproyecto\\main")
-import clases.reserva as R
+import clases_reserva.reserva as R
 
 def leer():
     con=connect("C:\\Corrales\\sqlite-tools\\DB\\cerberustest.db")
