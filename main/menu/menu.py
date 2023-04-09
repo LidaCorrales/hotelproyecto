@@ -1,4 +1,5 @@
 from sys import path as ruta
+from os import system
 
 ruta.append("C:\\Corrales\\hotelproyecto\\main")
 import CRUD_reserva.insertar as CI
@@ -8,11 +9,13 @@ import CRUD_reserva.eliminar as CE
 
 try:
     while True:
+        system("cls")
         print("Menu de reserva \nPresione 1 para acceder a datos de reserva")
         ctrl=int(input(' '))
         match ctrl:
             case 1:
                 while True:
+                    system("cls")
                     ctrl2=int(input("Seleccione 1 si desea crear una reserva \nSeleccione 2 si desea actualizar datos de reserva \nSeleccione 3 si desea leer datos de reserva \nSeleccione 4 si desea eliminar una reserva \nSeleccione 5 si desea acceder al menu principal \nSeleccione 0 para terminar"))
                     match ctrl2:
                         case 1:
@@ -25,7 +28,9 @@ try:
                             CE.eliminar()
                         case 5:
                             break
+                    system("pause")
             case 0:
                 break
+        system("pause")
 except (TypeError, ValueError) as e:
     print(type(e), e)

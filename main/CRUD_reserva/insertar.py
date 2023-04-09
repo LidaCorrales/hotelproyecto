@@ -26,5 +26,3 @@ def add():
                     "\nFecha de salida registrada en la reserva: " + str(fechasalida) + 
                     "\n" + "*"*50 +
                     "\n")
-        
-add()
