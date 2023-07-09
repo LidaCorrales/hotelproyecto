@@ -14,3 +14,5 @@ def eliminar():
     mycursordelete.execute("delete from reserva where can_hab_re =? and num_per_re =? and fecha_ini_re =? and fecha_fin_re =?",(cantidad_re, numero_re,fecha_init,fecha_final))
     con.commit()
     con.close()
+
+    #comentario
